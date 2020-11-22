@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Ejercicio10.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Servicio de imágenes aleatorias!</h1>
+    </header>
+    <section>
+        <figure>
+            <img alt="imagen aleatoria"></img>
+            <figcaption></figcaption>
+        </figure>
+        <section id="imageInfo">
+            <header>
+                <h3>Información de la imagen</h3>
+            </header>
+            <section id="cameraInfo">
+                <header>
+                    <h4>Cámara</h4>
+                </header>
+            </section>
+        </section>
+        <section id="userInfo">
+            <header>
+                <h3>Información del uploader</h3>
+            </header>
+            <section id="userBio">
+                <header>
+                    <h4>Biografía</h4>
+                </header>
+            </section>
+            <section id="userPortfolio">
+                <header>
+                    <h4>Portfolio</h4>
+                </header>
+            </section>
+        </section>
+    </section>
+    <section id="controlSection">
+        <button onclick="controller.loadImageAndUpdateView()">REFRESCAR! &#128260</button>
+    </section>
+</body>
+<script src="Ejercicio10.js"></script>
+
+</html>
